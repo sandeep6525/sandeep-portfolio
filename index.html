@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sandeepkanna S — Python Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ── NAV ─────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">S<span>.</span>K</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ────────────────────────────────────────────────── -->
+  <div id="hero">
+    <canvas id="hero-canvas"></canvas>
+
+    <div class="hero-content">
+      <p class="hero-greeting reveal" style="font-size:22px;">Hello, I'm</p>
+
+      <h1 class="hero-name reveal" style="font-size:72px; font-weight:800;">
+        Sandeepkanna<span class="highlight"> .S</span>
+      </h1>
+
+      <div class="hero-tagline reveal">
+        <span id="typewriter">Python Full Stack Developer</span>
+        <span id="typewriter-cursor"></span>
+      </div>
+
+      <p class="hero-bio reveal" style="text-align: justify; line-height:1.6;">
+        Computer Science graduate specializing in <strong>Python full-stack development</strong>.
+        Experienced in building dynamic web applications using Django, HTML, CSS, and JavaScript.
+        Passionate about developing scalable web solutions and transforming data into insights
+        using tools like Pandas, Power BI, and Tableau.
+      </p>
+
+      <div class="hero-ctas reveal">
+        <a href="assets/sandeepA.pdf" class="btn-primary" target="_blank">↓ Download Resume</a>
+        <a href="#contact" class="btn-secondary">Get in Touch</a>
+      </div>
+
+      <div class="hero-status reveal">
+        <div class="status-dot"></div>
+        Open to Software Developer Opportunities
+      </div>
+    </div>
+
+    <div class="hero-photo-wrap reveal">
+  <div style="width:420px; height:420px; border-radius:50%; overflow:hidden; 
+              border:6px solid #ff6a00; box-shadow:0 20px 40px rgba(0,0,0,0.2);">
+
+    <img src="./assets/me1.jpeg" alt="Sandeepkanna S"
+         style="width:100%; height:100%; object-fit:cover;">
+  </div>
+</div>
+  </div>
+
+  <!-- ── ABOUT ───────────────────────────────────────────────── -->
+  <section id="about">
+    <div class="section-label reveal">About</div>
+    <div class="section-title reveal">The Developer<br>Behind the Code.</div>
+    <div class="about-grid">
+      <div class="about-text reveal" style="text-align: justify; line-height:1.6;">
+        <p>
+          I'm a <strong>Python full-stack developer</strong> with a strong foundation in web development and software
+          engineering. I specialize in building dynamic and responsive web applications using Python, Django, HTML, CSS,
+          and JavaScript.
+        </p>
+
+        <p>
+          I have hands-on experience developing full-stack applications such as a Department Website and an Online Turf
+          Booking System, where I implemented backend logic using Django and designed responsive user interfaces using
+          modern web technologies.
+        </p>
+
+        <p>
+          Along with web development, I work with <strong>data analysis tools</strong> like Pandas and NumPy and create
+          interactive dashboards using Power BI and Tableau to turn data into meaningful insights.
+        </p>
+
+        <div class="about-philosophy">
+          <p>
+            "Clean code – Practical problem solving – Continuous learning – User-focused development – Building
+            real-world software solutions."
+          </p>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="about-stats">
+
+          <div class="stat-card">
+            <div class="stat-number">4+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Internships</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Domains Experienced</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">∞</div>
+            <div class="stat-label">Problems Solved</div>
+          </div>
+
+        </div>
+
+        <div class="domain-tags">
+          <span class="domain-tag">Python</span>
+          <span class="domain-tag">Java</span>
+          <span class="domain-tag">Django</span>
+          <span class="domain-tag">HTML</span>
+          <span class="domain-tag">CSS</span>
+          <span class="domain-tag">JavaScript</span>
+          <span class="domain-tag">Bootstrap</span>
+          <span class="domain-tag">MySQL</span>
+          <span class="domain-tag">PostgreSQL</span>
+          <span class="domain-tag">Pandas</span>
+          <span class="domain-tag">NumPy</span>
+          <span class="domain-tag">Power BI</span>
+          <span class="domain-tag">Tableau</span>
+          <span class="domain-tag">Git</span>
+          <span class="domain-tag">GitHub</span>
+          <span class="domain-tag">VS Code</span>
+          <span class="domain-tag">API Integration</span>
+          <span class="domain-tag">AI Tools</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ──────────────────────────────────────────────── -->
+  <section id="skills" style="text-align: justify; line-height:1.6;">
+    <div class="section-label reveal">Skills</div>
+    <div class="section-title reveal">Development Skills.<br>
+      <br>
+
+      <div class="skills-grid">
+
+        <!-- Domain 01: Web Development -->
+        <div class="reveal" >
+          <div class="skill-domain-title">Web Development <span>Domain 01</span></div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">HTML / CSS</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill animated" style="--target-width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">Django</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">Bootstrap</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">UI / UX Design</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 70%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Domain 02: Programming & Data -->
+        <div class="reveal" >
+          <div class="skill-domain-title">Programming & Data <span>Domain 02</span></div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">Python</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">Java</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">MySQL / PostgreSQL</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">Pandas / NumPy</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">Power BI / Tableau</span>
+              <span class="skill-pct">70%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-row">
+            <div class="skill-bar-header">
+              <span class="skill-name">Git / GitHub</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-bar-track">
+              <div class="skill-bar-fill" style="--target-width: 75%"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+  </section>
+  <!-- ── PROJECTS ─────────────────────────────────────────────── -->
+  <section id="projects" style="text-align: justify; line-height:1.6;">
+    <div class="section-label reveal">Projects</div>
+    <div class="section-title reveal">Selected Work.</div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal" data-tilt>
+        <div class="project-number">01 / Project</div>
+        <h3 class="project-title">Department Website Development</h3>
+        <p class="project-desc">
+          Designed and developed a department website using Python (Django), HTML, CSS, Tailwind CSS and SQL.
+          Implemented dynamic features for content management, student information and department updates.
+        </p>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">Django</span>
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">SQL</span>
+        </div>
+        <div class="project-links">
+          <a href="https://sonacas-cs.vercel.app/" class="project-link">↗ Live</a>
+          <a href="#" class="project-link">⌥ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-tilt>
+        <div class="project-number">02 / Project</div>
+        <h3 class="project-title">Online Turf Booking System</h3>
+        <p class="project-desc">
+          Developed an online turf booking system using Django to manage slot availability and booking processes
+          efficiently. Implemented authentication, booking management and admin controls with a responsive interface.
+        </p>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">Django</span>
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+          <span class="stack-tag">MySQL</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">↗ Live</a>
+          <a href="#" class="project-link">⌥ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-tilt>
+        <div class="project-number">03 / Project</div>
+        <h3 class="project-title">Student Management System</h3>
+        <p class="project-desc">
+          Built a student management system to manage student records, attendance and academic details.
+          Developed backend functionality using Python and created structured database operations.
+        </p>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">Django</span>
+          <span class="stack-tag">MySQL</span>
+          <span class="stack-tag">HTML</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">↗ Live</a>
+          <a href="#" class="project-link">⌥ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-tilt>
+        <div class="project-number">04 / Project</div>
+        <h3 class="project-title">Food Tracking System using Weather API</h3>
+        <p class="project-desc">
+          Developed a web application that integrates weather API data to track food conditions and provide insights.
+          Implemented API integration and dynamic data processing using Python.
+        </p>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">API</span>
+          <span class="stack-tag">HTML</span>
+          <span class="stack-tag">CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">↗ Live</a>
+          <a href="#" class="project-link">⌥ GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- ── EXPERIENCE ────────────────────────────────────────────── -->
+  <section id="experience" style="text-align: justify; line-height:1.6;">
+    <div class="section-label reveal">Experience</div>
+    <div class="section-title reveal">Where I've Worked.</div>
+
+    <div class="timeline reveal">
+
+      <!-- Experience 1 -->
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">Jan 2023 — Mar 2023</span>
+          <span class="timeline-badge">Internship</span>
+        </div>
+
+        <div class="timeline-role">Full Stack Web Development Trainee</div>
+        <div class="timeline-company">8Queens Software Technology · Chennai</div>
+
+        <p class="timeline-desc">
+          Gained practical exposure to full-stack web development by working with frontend and backend technologies.
+          Designed responsive web pages using HTML and followed UI best practices while collaborating in a team-based
+          development environment.
+        </p>
+
+        <div class="timeline-tags">
+          <span class="timeline-tag">Python</span>
+          <span class="timeline-tag">Django</span>
+          <span class="timeline-tag">HTML</span>
+          <span class="timeline-tag">CSS</span>
+          <span class="timeline-tag">Web Development</span>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">2025</span>
+          <span class="timeline-badge">Training</span>
+        </div>
+
+        <div class="timeline-role">Python Backend Development Trainee</div>
+        <div class="timeline-company">Self Grow Technology · Salem</div>
+
+        <p class="timeline-desc">
+          Completed training focused on Python backend development, where I learned how to connect
+          backend applications with databases and build server-side logic. Gained hands-on experience
+          in deployment and hosting of web applications while understanding real-world development workflows.
+        </p>
+
+        <div class="timeline-tags">
+          <span class="timeline-tag">Python</span>
+          <span class="timeline-tag">Backend Development</span>
+          <span class="timeline-tag">Database Integration</span>
+          <span class="timeline-tag">Deployment</span>
+          <span class="timeline-tag">Hosting</span>
+        </div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">Training</span>
+          <span class="timeline-badge">Past</span>
+        </div>
+
+        <div class="timeline-role">Junior Trainee</div>
+        <div class="timeline-company">United Soft Tech · Salem</div>
+
+        <p class="timeline-desc">
+          Worked with team members on real-time software development projects. Assisted in development,
+          testing, and debugging while learning coding standards and application workflows used in professional
+          software development environments.
+        </p>
+
+        <div class="timeline-tags">
+          <span class="timeline-tag">JavaScript</span>
+          <span class="timeline-tag">HTML</span>
+          <span class="timeline-tag">CSS</span>
+          <span class="timeline-tag">Software Development</span>
+          <span class="timeline-tag">Debugging</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ──────────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="section-label reveal">Contact</div>
+    <div class="contact-inner">
+
+      <h2 class="contact-headline reveal">
+        Let's build something<br><span class="orange">amazing.</span>
+      </h2>
+
+      <p class="contact-sub reveal">
+        I'm open to opportunities in Python development, full-stack web development, and software engineering roles.
+        If you have a project idea, collaboration opportunity, or job opening, feel free to reach out.
+      </p>
+
+      <a href="mailto:sandeepkannasuresh@gmail.com" class="contact-email reveal">
+        sandeepkannasuresh@gmail.com ↗
+      </a>
+
+      <div class="contact-socials reveal">
+
+        <a href="https://www.linkedin.com/in/sandeepkanna-suresh-18b03939b/" target="_blank" class="social-link">
+          <span class="social-icon">in</span> LinkedIn
+        </a>
+
+        <a href="https://github.com/sandeep6525" target="_blank" class="social-link">
+          <span class="social-icon">⌥</span> GitHub
+        </a>
+
+        <a href="https://wa.me/9360978079" target="_blank" class="social-link">
+          <span class="social-icon">✉</span> WhatsApp
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ── FOOTER ───────────────────────────────────────────────── -->
+  <footer>
+    <p>© 2026 Sandeepkanna S. Built with <span>♥</span> and HTML, CSS, JavaScript.</p>
+    <p>Designed & Developed by <span>Sandeepkanna S</span></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
